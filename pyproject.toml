@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "freidora"
+version = "0.1.0"
+authors = [{ name = "GMM", email = "gonzalo.martinez@uam.es" }]
+description = "Libreria RISC para uso de pandas de forma simplificada"
+
+dependencies = [
+    "pandas",
+    "numpy",
+    "dill",
+    "graphviz"
+]
